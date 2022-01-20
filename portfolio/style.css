@@ -77,7 +77,7 @@ ul {
   background-color: var(--gold-color);
   border: 0;
   cursor: pointer;
-  transition: 3s;
+  transition: 1s;
 }
 
 .btn:hover {
@@ -88,7 +88,7 @@ ul {
   color: var(--gold-color);
   background-color: transparent;
   border: 2px solid var(--gold-color);
-  transition: 3s;
+  transition: 1s;
 }
 
 .btn-black:hover {
@@ -136,7 +136,7 @@ ul {
   width: 50px;
   height: 50px;
   fill: var(--white-color);
-  transition: 3s;
+  transition: 1s;
 }
 
 .header__icon:hover {
@@ -159,7 +159,7 @@ ul {
   line-height: 50px;
   text-decoration: none;
   color: var(--white-color);
-  transition: 3s;
+  transition: 1s;
 }
 
 .nav__link:hover {
@@ -192,6 +192,11 @@ ul {
 .switch__button--ru {
   padding-left: 3px;
   cursor: pointer;
+  transition: 1s;
+}
+
+.switch__button--ru:hover {
+  color: var(--gold-color);
 }
 
 .switch__solidus {
@@ -328,7 +333,7 @@ ul {
 }
 
 .portfolio_imgs {
-  transition: 2s;
+  transition: 1s;
 }
 
 .portfolio_imgs:hover {
@@ -500,7 +505,7 @@ ul {
   line-height: 50px;
   text-decoration: none;
   color: var(--white-color);
-  transition: 3s;
+  transition: 1s;
 }
 
 .text__link:hover {
@@ -522,7 +527,7 @@ ul {
   width: 32px;
   height: 32px;
   fill: var(--white-color);
-  transition: 3s;
+  transition: 1s;
 }
 
 .social__icon:hover {
